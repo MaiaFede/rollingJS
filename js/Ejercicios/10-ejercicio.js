@@ -10,9 +10,5 @@ for (let i = 0; i < divisores.length; i++) {
     document.write(
       ` <p>El ${numeroPrueba} es divisible por ${divisores[i]}</p>`
     );
-  }/*else {
-    document.write(
-      ` <p> El ${numeroPrueba} no es divisible por ${divisores[i]} </p>`
-    );
-  }* solo para ver con cual no era divisble, asi que lo hice como extra*/
+  }
 }
