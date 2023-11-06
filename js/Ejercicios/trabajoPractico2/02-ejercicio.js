@@ -16,7 +16,7 @@ mostrar el mensaje “Introduce un número válido”.
 */
 
 const numeroRango = parseInt(prompt('Ingrese su nota (número):'));
-
+/* Este lo hice al principio porque no habia llegado hasta la parte de switch de la clase grabada
 if (!isNaN(numeroRango)) {
     if (numeroRango <= 2) {
     alert ( 'Muy deficiente');
@@ -33,3 +33,21 @@ if (!isNaN(numeroRango)) {
         alert('Número erróneo');
     }
 }else alert ('Introduce un número válido')
+*/
+if (!isNaN(numeroRango)){
+    switch (numeroRango){
+        case numeroRango<= 2 :alert ( 'Muy deficiente');
+        break;
+        case numeroRango<= 4 : alert ('Insuficiente');
+        break;
+        case numeroRango<= 6:alert ('Suficiente');
+        break;
+            case numeroRango=== 7:alert('Bien');
+            break;
+            case numeroRango<=9: alert('Notable');
+            break;
+            case numeroRango=== 10:alert ('Sobresaliente');
+            break;
+            default: alert('Número erróneo');
+    }
+}else alert ('Introduce un número válido');
