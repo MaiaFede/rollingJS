@@ -1,0 +1,5 @@
+//funciones declarativas
+function saludar()
+{
+    
+}
