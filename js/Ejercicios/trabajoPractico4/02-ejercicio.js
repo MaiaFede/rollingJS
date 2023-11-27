@@ -3,7 +3,8 @@ class Cuenta {
     constructor(){
     this.titular ="Alex"
     this.saldo= 0
-    Document.write(`<p>Tu saldo actual es de{this.saldo</p>`)}
+    Document.write(`<p>Tu saldo actual es de `//{this.saldo}
+    `</p>`)}
     
     ingresar(cantidad){ 
         this.saldo += cantidad 
@@ -13,8 +14,8 @@ class Cuenta {
         this.saldo -= cantidad 
          }
         informar(){
-        Document.write("Tu saldo actual es de" + //{this.saldo})
-        }
+        Document.write("Tu saldo actual es de" //+{this.saldo}
+        )}
    }
 
 let alex = new Cuenta()
